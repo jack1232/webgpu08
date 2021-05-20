@@ -7,12 +7,12 @@ const CreateSquare = async () => {
 
     const vertexData = new Float32Array([
         //position    //color
-       -0.5, -0.5,    1, 0, 0,
-        0.5, -0.5,    0, 1, 0,
-       -0.5,  0.5,    1, 1, 0,
-       -0.5,  0.5,    1, 1, 0,
-        0.5, -0.5,    0, 1, 0,
-        0.5,  0.5,    0, 0, 1
+       -0.5, -0.5,    1, 0, 0,  // vertex a
+        0.5, -0.5,    0, 1, 0,  // vertex b
+       -0.5,  0.5,    1, 1, 0,  // vertex d
+       -0.5,  0.5,    1, 1, 0,  // vertex d
+        0.5, -0.5,    0, 1, 0,  // vertex b
+        0.5,  0.5,    0, 0, 1   // vertex c
    ]);
 
     const vertexBuffer = CreateGPUBuffer(device, vertexData);
