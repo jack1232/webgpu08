@@ -27,16 +27,17 @@ const CreateSquare = async () => {
             buffers:[
                 {
                     arrayStride: 4*(2+3),
-                    attributes: [{
-                        shaderLocation: 0,
-                        format: "float32x2",
-                        offset: 0
-                    },
-                    {
-                        shaderLocation: 1,
-                        offset: 4*2,
-                        format: 'float32x3'
-                    }
+                    attributes: [
+                        {
+                            shaderLocation: 0,
+                            format: 'float32x2',
+                            offset: 0
+                        },
+                        {
+                            shaderLocation: 1,                            
+                            format: 'float32x3',
+                            offset: 8
+                        }
                     ]
                 }
             ]
