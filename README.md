@@ -7,3 +7,6 @@ This sample WebGPU app creates a square using a single GPU buffer. The output fr
 
 ![image01](dist/assets/image01.png)
 
+## Link for All Source Code Used in the WebGPU Step-By-Step Video Series:
+
+https://github.com/jack1232/WebGPU-Step-By-Step
